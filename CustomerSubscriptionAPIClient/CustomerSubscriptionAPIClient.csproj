@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>Challenge.Util.CustomerSubscriptionAPIClient</PackageId>
+    <Authors>dalbarracin</Authors>
+    <Description>Client library for consuming web api customer subscription</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>CustomerSubscriptionAPIClient</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
