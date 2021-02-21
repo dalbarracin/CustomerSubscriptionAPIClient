@@ -9,7 +9,7 @@ namespace CustomerSubscriptionAPIClient.Infraestructure
     internal class HttpApiClient : IHttpClient
     {
         private readonly HttpClient httpClient;
-        private const string baseUrl = "http://localhost:44387/";
+        private const string baseUrl = "http://host.docker.internal:44387/";
 
         public HttpApiClient()
         {
