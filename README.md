@@ -27,6 +27,6 @@ The Web API application can be downloaded as a single container on Docker hub (h
 
 ## Requirements and Dependencies
 
-.NETCoreApp 3.1
-Microsoft.Extensions.DependencyInjection.Abstractions (>= 5.0.0)
-Newtonsoft.Json (>= 12.0.3)
+- .NETCoreApp 3.1
+- Microsoft.Extensions.DependencyInjection.Abstractions (>= 5.0.0)
+- Newtonsoft.Json (>= 12.0.3)
