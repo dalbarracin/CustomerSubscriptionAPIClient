@@ -15,7 +15,7 @@ Created a ServiceCollectionExtensions static class in our library for adding ser
 ## Using class library
 Since a composition root is always decleared in each Entry point application (Such as web aplication, console application, etc) some configurations needs to be done first before using interfaces.
 
-Configure services by calling ´services.AddCustomerSubscriptionScoped()´ implementation.
+Configure services by calling `services.AddCustomerSubscriptionScoped()` implementation.
 Use interface in a constructor of each class, so the system will resolve a dependency in runtime.
 
 ## Limitaitons
