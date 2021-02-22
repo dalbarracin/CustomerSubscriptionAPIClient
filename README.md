@@ -6,6 +6,8 @@ This code sample presents a class library based on Net Core 3.1 and contains as 
 
 This application was packed as a nuget package that can be found on Nuget.org (https://www.nuget.org/packages/Challenge.Util.CustomerSubscriptionAPIClient).
 
+The Web API application can be downloaded as a single container on Docker hub (https://hub.docker.com/repository/docker/dalbarracin/customersubscriptionapi) as well as Github (https://github.com/dalbarracin/CustomerSubscriptionAPI)
+
 ## Architectural constraints
 
 Some architectural decisions were made by exposing API clients Interfaces (Customer, Products and Subscriptions) whose definitions are configured by using Dependency Injection pattern.
@@ -22,8 +24,6 @@ Use interface in a constructor of each class, so the system will resolve a depen
 
 This packaged was build as an example how to consume data from a Web API application in a docker container. 
 The architectural constraints decided include using a HttpClient class for sending Http Request defining a BaseURL (http://host.docker.internal) since this application is intended to be used on Docker.
-
-The Web API application can be downloaded as a single container on Docker hub (https://hub.docker.com/repository/docker/dalbarracin/customersubscriptionapi) as well as Github (https://github.com/dalbarracin/CustomerSubscriptionAPI)
 
 ## Requirements and Dependencies
 
